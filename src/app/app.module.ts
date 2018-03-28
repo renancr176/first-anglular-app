@@ -17,6 +17,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { TesteComponent } from './teste/teste.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TesteComponent } from './teste/teste.component';
     HeaderComponent,
     MainComponent,
     HomeComponent,
-    TesteComponent
+    TesteComponent,
+    HeroesComponent
   ],
   imports: [
     BrowserModule,
